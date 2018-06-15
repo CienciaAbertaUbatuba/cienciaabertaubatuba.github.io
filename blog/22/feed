@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://cienciaaberta.ubatuba.cc"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Blog de juliandm</title>
+ <link>http://cienciaaberta.ubatuba.cc/blogs/juliandm</link>
+ <description></description>
+ <language>pt-br</language>
+<item>
+ <title>Vídeos Ciência Aberta</title>
+ <link>http://cienciaaberta.ubatuba.cc/canal-ci%C3%AAncia-aberta</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p class=&quot;western&quot;&gt;Visite nosso canal no youtube!&lt;/p&gt;
+&lt;p class=&quot;western&quot;&gt;Lá estão disponíveis alguns materiais em vídeo da pesquisa como entrevistas com outros pesquisadores, colaboradores e agentes locais, além da cobertura de eventos e encontros.&lt;/p&gt;
+&lt;p class=&quot;western&quot;&gt;
+Para acessar o canal utilize o link:&amp;nbsp;&lt;a href=&quot;https://www.youtube.com/channel/UC1J2Bd6q6VhFBNGihT2qYvA&quot;&gt;Ciência Aberta Ubatuba&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-destaque field-type-list-text field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Destaque:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sim&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 18 Jul 2016 05:07:18 +0000</pubDate>
+ <dc:creator>juliandm</dc:creator>
+ <guid isPermaLink="false">58 at http://cienciaaberta.ubatuba.cc</guid>
+</item>
+</channel>
+</rss>

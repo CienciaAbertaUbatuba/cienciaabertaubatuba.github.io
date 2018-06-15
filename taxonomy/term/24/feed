@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://cienciaaberta.ubatuba.cc"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Ciência Aberta Ubatuba - mesas</title>
+ <link>http://cienciaaberta.ubatuba.cc/tags/mesas</link>
+ <description></description>
+ <language>pt-br</language>
+<item>
+ <title>Ciência Aberta Ubatuba na Reunião Anual da SBPC</title>
+ <link>http://cienciaaberta.ubatuba.cc/blog/1507/ci%C3%AAncia-aberta-ubatuba-na-reuni%C3%A3o-anual-da-sbpc</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;A plataforma Ciência Aberta Ubatuba estará representado na &lt;a href=&quot;http://www.sbpcnet.org.br/saocarlos/home/&quot;&gt;67a Reunião Anual da SBPC&lt;/a&gt;, que acontece na próxima semana em São Carlos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sarita Albagli (IBICT), coordenadora do projeto, participará da &lt;span&gt;conferência &quot;Por uma Política Nacional de Informação em C&amp;amp;T&quot;, no dia 14 de julho de 2015, às 10:30 h, e coordenada por. Nelson de Luca Pretto (UFBA);&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Felipe Fonseca (Ubalab), Rafael Pezzi (UFRGS) e Alexandre Abdo (Open Knowledge BR) participam da mesa Redonda &quot;Ciência aberta e cidadã no Brasil&quot;, no dia 14 de julho de 2015, às 15:30 h.
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/eventos&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;eventos&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/tags/sbpc&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;sbpc&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/mesas&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;mesas&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 07 Jul 2015 18:11:00 +0000</pubDate>
+ <dc:creator>efeefe</dc:creator>
+ <guid isPermaLink="false">21 at http://cienciaaberta.ubatuba.cc</guid>
+</item>
+</channel>
+</rss>

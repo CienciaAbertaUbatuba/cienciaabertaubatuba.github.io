@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://cienciaaberta.ubatuba.cc"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Blog de root</title>
+ <link>http://cienciaaberta.ubatuba.cc/blogs/root</link>
+ <description></description>
+ <language>pt-br</language>
+<item>
+ <title>Tropixel Ciência Aberta - Programa</title>
+ <link>http://cienciaaberta.ubatuba.cc/blog/1505/tropixel-ci%C3%AAncia-aberta-programa</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Com o objetivo de aprofundar o debate a respeito de ciência aberta no contexto de Ubatuba, estamos organizando para a primeira semana de junho o &lt;a href=&quot;http://tropixel.ubalab.org/&quot;&gt;Tropixel Ciência Aberta&lt;/a&gt;, dentro do Festival da Mata Atlântica de Ubatuba.&lt;/p&gt;
+&lt;p&gt;A programação inclui oficinas práticas com estudantes e jovens, um dia de painel com apresentação e debates, e por fim um laboratório experimental temporário ligado à Global Sprint da Mozilla Science que tem por objetivo demonstrar caminhos concretos para a adoção de práticas científicas abertas e colaborativas. Ajude a divulgar o Tropixel Ciência Aberta e participe! Mais informações em:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tropixel.ubalab.org/&quot;&gt;http://tropixel.ubalab.org/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Mon, 25 May 2015 04:09:20 +0000</pubDate>
+ <dc:creator>root</dc:creator>
+ <guid isPermaLink="false">15 at http://cienciaaberta.ubatuba.cc</guid>
+</item>
+</channel>
+</rss>
