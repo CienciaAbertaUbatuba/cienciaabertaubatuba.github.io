@@ -1,4 +1,5 @@
 /* Fonts families */
+/* 
 body.pff-1, .pff-1 input, .pff-1 select, .pff-1 textarea, .pff-1 blockquote, .pff-1 .ui-widget { font-family: 'Merriweather', Georgia, Times New Roman, Serif; }
 body.pff-2, .pff-2 input, .pff-2 select, .pff-2 textarea, .pff-2 blockquote, .pff-2 .ui-widget { font-family: 'Source Sans Pro', Helvetica Neue, Arial, Sans-serif; }
 body.pff-3, .pff-3 input, .pff-3 select, .pff-3 textarea, .pff-3 blockquote, .pff-3 .ui-widget { font-family: 'Ubuntu', Helvetica Neue, Arial, Sans-serif; }
@@ -30,7 +31,9 @@ body.pff-28, .pff-28 input, .pff-28 select, .pff-28 textarea, .pff-28 blockquote
 body.pff-29, .pff-29 input, .pff-29 select, .pff-29 textarea, .pff-29 blockquote, .pff-29 .ui-widget { font-family: 'Volkhov', Georgia, Times, Times New Roman, Serif; }
 body.pff-30, .pff-30 input, .pff-30 select, .pff-30 textarea, .pff-30 blockquote, .pff-30 .ui-widget { font-family: Times, Times New Roman, Serif; }
 body.pff-31, .pff-31 input, .pff-31 select, .pff-31 textarea, .pff-31 blockquote, .pff-31 .ui-widget { font-family: 'Alegreya SC', Georgia, Times, Times New Roman, Serif; }
+*/
 
+/*
 .hff-1 h1,.hff-1 h2,.hff-1 h3,.hff-1 h4,.hff-1 h5,.hff-1 h6, .hff-1 .title-teaser-text .title, .sff-1 #site-name, 
 .sff-1 #subfooter-site-name, .slff-1 #site-slogan { font-family: 'Merriweather', Georgia, Times New Roman, Serif; }
 .hff-2 h1,.hff-2 h2,.hff-2 h3,.hff-2 h4,.hff-2 h5,.hff-2 h6, .hff-2 .title-teaser-text .title, .sff-2 #site-name, 
@@ -93,6 +96,7 @@ body.pff-31, .pff-31 input, .pff-31 select, .pff-31 textarea, .pff-31 blockquote
 .sff-30 #subfooter-site-name, .slff-30 #site-slogan { font-family: Times, Times New Roman, Serif; }
 .hff-31 h1,.hff-31 h2,.hff-31 h3,.hff-31 h4,.hff-31 h5,.hff-31 h6, .hff-31 .title-teaser-text .title, .sff-31 #site-name, 
 .sff-31 #subfooter-site-name, .slff-31 #site-slogan { font-family: 'Alegreya SC', Georgia, Times, Times New Roman, Serif; }
+*/
 
 .maintenance-page #site-name, .maintenance-page h1, body.maintenance-page, .maintenance-page #site-slogan { font-family: 'Lato', Helvetica Neue, Arial, Sans-serif; }
 
@@ -101,18 +105,40 @@ body.pff-31, .pff-31 input, .pff-31 select, .pff-31 textarea, .pff-31 blockquote
 	.form-text, .form-textarea, .block-superfish select, .block-search .form-submit, #search-block-form .form-submit { background-image: none; } 
 }
 
-body { font-size: 15px; font-weight: 400; line-height: 1.45; color: #1e1e1e; }
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem; /* Original was 15px */
+    line-height: 1.6; /* Original was 1.45 */
+    color: #212529; /* Original was #1e1e1e, this is Bootstrap's default body color */
+    font-weight: 400; /* This was the original default weight */
+    background-color: #fff; /* Ensure body background is white */
+}
 
 p { margin: 0; padding: 0 0 15px 0; }
 
 p.large { font-size: 21px; line-height: 1.33; }
 
-a { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; 
--o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; color: #2a68af; }
+a {
+    color: #2962ff; /* New link color */
+    text-decoration: none; /* Remove default underline */
+    /* Keep existing transition properties if they exist, or add: */
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 
-a:hover { text-decoration: underline; color: #4187d1; }
+a:hover {
+    color: #1a237e; /* Slightly darker blue or a theme color for hover */
+    text-decoration: underline; /* Add underline on hover */
+}
 
-a:focus { outline: none; text-decoration: none; color: #4187d1; }
+a:focus { /* Adjusted to match hover for consistency */
+    outline: none; /* Common reset */
+    text-decoration: underline;
+    color: #1a237e; 
+}
 
 img {  height: auto; max-width: 100%; }
 
@@ -154,36 +180,46 @@ font-style: normal; font-size: 160px; line-height: 1; }
 hr { border-top: 1px solid #c2c2c2; margin-bottom: 40px; margin-top: 40px; }
 
 /*Headings*/
-h1, h2, h3, h4, h5, h6 { line-height: 1.20; padding: 0; margin: 20px 0 10px 0; font-weight: 700; text-transform: uppercase; }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1a237e; /* New heading color */
+    margin-top: 0; 
+    margin-bottom: 0.5rem; /* Consistent spacing */
+}
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #1e1e1e; }
+h1 { font-size: 2.5rem; } /* Adjusted for Bootstrap 5 feel, original: 35px */
+h2 { font-size: 2rem; }   /* Adjusted, original: 28px */
+h3 { font-size: 1.75rem; }/* Adjusted, original: 21px */
+h4 { font-size: 1.5rem; } /* Adjusted, original: 19px */
+h5 { font-size: 1.25rem; }/* Adjusted, original: 16px */
+h6 { font-size: 1rem; }   /* New definition for h6 */
 
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #4187d1; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit; /* Headings links will inherit the heading color */
+    text-decoration: none;
+}
 
-h1 { font-size: 35px; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #2962ff; /* Link hover color for headings */
+    text-decoration: underline;
+}
 
-h2 { font-size: 28px; font-weight: 400; }
+h1.title { margin-top:0; margin-bottom: 20px; } /* Retaining this specific rule for now */
 
-h3 { font-size: 21px; }
+.footer-area h2.title { font-size: 16px; margin-bottom: 15px; } /* Retaining for now */
 
-h4 { font-size: 19px; }
+#block-views-mt-latest-news-block-1 h2 { font-size: 24px; font-weight: 700; } /* Retaining for now */
 
-h5 { font-size: 16px; }
+.footer-area h1, .footer-area h2, .footer-area h3, .footer-area h4, .footer-area h5, .footer-area h6 { color: #fff; } /* Retaining for now */
 
-h1.title { margin-top:0; margin-bottom: 20px; }
-
-.footer-area h2.title { font-size: 16px; margin-bottom: 15px; }
-
-#block-views-mt-latest-news-block-1 h2 { font-size: 24px; font-weight: 700; }
-
-.footer-area h1, .footer-area h2, .footer-area h3, .footer-area h4, .footer-area h5, .footer-area h6 { color: #fff; }
-
-.footer-area h1 a, .footer-area h2 a, .footer-area h3 a, .footer-area h4 a, .footer-area h5 a, .footer-area h6 a { color: #fff; }
+.footer-area h1 a, .footer-area h2 a, .footer-area h3 a, .footer-area h4 a, .footer-area h5 a, .footer-area h6 a { color: #fff; } /* Retaining for now */
 
 .footer-area h1 a:hover, .footer-area h2 a:hover, .footer-area h3 a:hover, 
-.footer-area h4 a:hover, .footer-area h5 a:hover, .footer-area h6 a:hover{ color: #4187d1; }
+.footer-area h4 a:hover, .footer-area h5 a:hover, .footer-area h6 a:hover{ color: #2962ff; } /* Updated hover color */
 
-.subtitle { margin-top: -10px; text-transform: uppercase; padding-bottom: 20px; }
+.subtitle { margin-top: -10px; text-transform: uppercase; padding-bottom: 20px; } /* Retaining for now */
 
 .footer-area .subtitle { font-size: 12px; }
 
@@ -249,11 +285,17 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 	#page-intro-inside { position: relative; bottom:0; border-bottom: 1px solid #cfd0d2; }
 }
 
-#highlighted { padding: 50px 0 0; }
+#highlighted { 
+    padding: 50px 0 0; 
+    background-color: #fff; /* Ensure highlighted section has a light background */
+}
 
 #highlighted + #main-content { padding: 20px 0; }
 
-#main-content { padding: 60px 0; }
+#main-content { 
+    /* padding: 60px 0; */ /* Removed as py-5 is applied to the inner container */
+    background-color: #fff; /* Ensure main content has a light background */
+}
 
 #promoted { padding: 0 0 20px 0; }
 
@@ -264,26 +306,36 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 	#sidebar-first { margin-top: 0; }
 }
 
-#bottom-content { padding: 30px 0 30px; background: #f2f2f2; margin: 40px 0 0 0; }
-
-#footer-top { padding-top: 20px; background: #c2c2c2; }
-
-@media (min-width: 768px) {
-	#footer-top.two-regions { 
-		background: #c2c2c2; 
-		background: -moz-linear-gradient(left, #c2c2c2 50%, #d7d7d7 50%); 
-		background: -webkit-gradient(left, #c2c2c2 50%, #d7d7d7 50%);
-		background: -webkit-linear-gradient(left, #c2c2c2 49.7%, #d7d7d7 49.7%);
-		background: -o-linear-gradient(left, #c2c2c2 50%, #d7d7d7 50%);
-		background: -ms-linear-gradient(left, #c2c2c2 50%, #d7d7d7 50%);
-		background: linear-gradient(left, #c2c2c2 50%, #d7d7d7 50%);
-	}
-	#footer-top.one-region { background: #c2c2c2; }
+#bottom-content { 
+    padding: 30px 0 30px; 
+    background: #f8f9fa; /* Standard light gray, was #f2f2f2 */
+    margin: 40px 0 0 0; 
 }
 
-#footer { background-color: #101010; padding: 25px 0 55px 0; }
+#footer-top { 
+    padding: 3rem 0; /* py-5 equivalent */
+    background: #212529; 
+    color: #adb5bd; 
+}
 
-#subfooter { background-color: #080808; padding: 25px 0 15px; }
+@media (min-width: 768px) {
+	#footer-top.two-regions {  
+		background: #212529; /* Unified dark background */
+	}
+	#footer-top.one-region { 
+        background: #212529; /* Unified dark background */
+    }
+}
+
+#footer { 
+    background-color: #212529; /* Was #101010, now consistent dark */
+    padding: 3rem 0; /* Was 25px 0 55px 0 */
+}
+
+#subfooter { 
+    background-color: #212529; /* Was #080808, now consistent dark */
+    padding: 2rem 0; /* Was 25px 0 15px */
+}
 
 @media (min-width: 1200px) { 
 	.fix-sidebar-second { padding-left: 45px; }
@@ -295,7 +347,26 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 .header-top-area { color: #fff; }
 
 /*Footer*/
-.footer-area, .subfooter-area { color: #a3a3a3; font-size: 14px; }
+.footer-area, .subfooter-area { 
+    color: #adb5bd; /* Was #a3a3a3. New default light text for footers. */
+    font-size: 0.9rem; /* Slightly smaller for footer */
+}
+#footer-top, #footer, #subfooter {
+    color: #adb5bd; /* General text color for all footer sections */
+}
+#footer-top h2.title, #footer h2.title, #subfooter h2.title,
+.footer-area h1, .footer-area h2, .footer-area h3, .footer-area h4, .footer-area h5, .footer-area h6 { 
+    color: #f8f9fa; /* Brighter color for headings in footer */
+}
+.footer-area h1 a, .footer-area h2 a, .footer-area h3 a, .footer-area h4 a, .footer-area h5 a, .footer-area h6 a {
+    color: #f8f9fa; /* Ensure heading links are also bright */
+}
+.footer-area h1 a:hover, .footer-area h2 a:hover, .footer-area h3 a:hover, 
+.footer-area h4 a:hover, .footer-area h5 a:hover, .footer-area h6 a:hover { 
+    color: #fff; /* Slightly brighter on hover for heading links */
+    text-decoration: underline;
+}
+
 
 @media (max-width: 767px) {
 	.footer-area { text-align: center; }
@@ -492,16 +563,33 @@ ul.menu li > a:hover:before { left: 10px; color: #2a68af!important; }
 ul.menu li.expanded > a:hover:before { left: 5px; }
 
 /*footer menu*/
-.footer-area ul.menu li a { color: #a3a3a3; padding: 7px 0 8px 25px; text-decoration: none; }
+.footer-area ul.menu li a { 
+    color: #dee2e6; /* Light link color */
+    padding: 7px 0 8px 25px; 
+    text-decoration: none; 
+}
 
-.footer-area ul.menu li a:hover { color: #4187d1; text-decoration: underline; background-color: transparent; }
+.footer-area ul.menu li a:hover,
+.footer-area ul.menu li a:focus { 
+    color: #fff; /* Brighter on hover/focus */
+    text-decoration: underline; 
+    background-color: transparent; 
+}
 
 /*footer menu arrows  */
-.footer-area ul.menu li > a:before { top:7px; }
+.footer-area ul.menu li > a:before { 
+    top:7px; 
+    color: #dee2e6; /* Match link color */
+}
 
-.footer-area ul.menu li > a:hover:before { left: 5px; }
+.footer-area ul.menu li > a:hover:before { 
+    left: 5px; 
+    color: #fff !important; /* Brighter arrow on hover */
+}
 
-.footer-area ul.menu li.active-trail > a:before { color: #2a68af; }
+.footer-area ul.menu li.active-trail > a:before { 
+    color: #fff; /* Active trail arrow color */
+}
 
 @media (max-width: 767px) {
 	.footer-area ul.menu { text-align: center; padding: 0 0 0 2px; }
@@ -516,14 +604,30 @@ ul.menu li.expanded > a:hover:before { left: 5px; }
 
 #subfooter ul.menu ul.menu { display: none; }
 
-#subfooter ul.menu li a { font-size: 12px; font-weight:700; text-transform:uppercase; margin:0; color: #a3a3a3; 
-padding: 0 10px 0 8px; border-right: 1px solid #a3a3a3;  line-height: 1; }  
+#subfooter ul.menu li a { 
+    font-size: 0.85rem; /* Slightly smaller */
+    font-weight:400; /* Normal weight */
+    text-transform:none; /* No uppercase */
+    margin:0; 
+    color: #dee2e6; 
+    padding: 0 10px 0 8px; 
+    border-right: 1px solid #495057;  /* Darker border for subtle separation */
+    line-height: 1; 
+}  
 
-#subfooter ul.menu li.last a { border-right: none; padding-right: 0; }
+#subfooter ul.menu li.last a { 
+    border-right: none; 
+    padding-right: 0; 
+}
 
-#subfooter ul.menu li a:hover { color: #ffffff; background-color: transparent; text-decoration: underline;}
+#subfooter ul.menu li a:hover,
+#subfooter ul.menu li a:focus { 
+    color: #fff; 
+    background-color: transparent; 
+    text-decoration: underline;
+}
 
-#subfooter ul.menu li.expanded > a:before, #subfooter ul.menu li > a:before { content: ""; }
+#subfooter ul.menu li.expanded > a:before, #subfooter ul.menu li > a:before { content: ""; } /* Keep arrows off for subfooter simple menu */
 
 @media (max-width: 991px) { 
 	#subfooter ul.menu { text-align: center; padding: 0 0 0 2px; }
@@ -635,22 +739,108 @@ width: 55px; background-color: #cfd0d2; height: 50px; position: absolute; bottom
 /*Node*/
 article.node { position: relative; }
 
-.node.node-teaser { margin-bottom: 55px; }
+/* Card Styling for .node-teaser */
+article.node.node-teaser {
+    margin-bottom: 1.5rem; /* mb-4 */
+    border: 1px solid #e0e0e0; /* New border */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* New shadow */
+    background-color: #fff; /* Ensure light background */
+    border-radius: 0.375rem; /* Rounded corners */
+    overflow: hidden; /* Contain child elements */
+    display: flex; /* Added for flex layout if needed, or can be removed if causing issues */
+    flex-direction: column; /* Ensure content flows top to bottom */
+}
 
-.node.node-teaser header { padding-bottom: 10px; }
+/* Header within .node-teaser */
+.node.node-teaser header { 
+    padding: 1.5rem 1.5rem 0; /* Consistent padding for all teaser headers */
+    /* Original padding-bottom: 10px from old rule is removed */
+}
+/* No specific rule for .node.node-teaser.node-mt header needed if padding is consistent. 
+   .post-submitted-info is absolute and does not affect this padding flow. */
 
-.node.node-teaser.node-mt .field-type-image { overflow: hidden; }
+/* Ensure images within teasers are responsive */
+article.node.node-teaser img {
+    max-width: 100%;
+    height: auto;
+}
 
-.node.node-teaser .node-main-content { padding: 0 0 10px 0; border-bottom: 1px solid #acacac; }
+/* Images intended as card top images (if any, this is a general rule for now) */
+article.node.node-teaser .field-type-image:first-child { /* If image is the first element */
+    margin-bottom: 0; /* Remove bottom margin if it's a card top image */
+    /* width: 100%; */ /* Optional: make it full width if it's a top image */
+}
+article.node.node-teaser .field-type-image {
+     margin-bottom: 1rem; /* Add some space if image is within content body */
+}
 
-.node.node-teaser ul.links { display: none; }
 
-.node header .user-picture { padding: 0 0 20px 0; }
+/* Specific handling for images in .node-mt layout (date on left) */
+article.node.node-teaser.node-mt .field-type-image { 
+    overflow: hidden; /* This was already there */
+    /* The float: left and margin-right: 20px is handled by the @media rule below */
+}
 
-.feed-icon { display: block; margin: 0px 0 40px; }
+
+/* Content area within the teaser */
+.node.node-teaser .node-main-content {
+    padding: 1.5rem; /* Base padding for teaser content */
+    border-bottom: none; /* Remove old border, card has its own */
+    flex-grow: 1; /* Allow content to take available space */
+}
+
+/* Remove top padding from .node-main-content if it directly follows a header */
+.node.node-teaser header + .node-main-content {
+    padding-top: 0; 
+}
+
+/* For .node-mt layout, ensure the .custom-width content respects the main padding rules, 
+   while margin-left handles the date column. Explicit padding-top here is removed
+   as it should be handled by the header + .node-main-content rule above. */
+.node.node-teaser.node-mt .node-main-content.custom-width {
+    margin-left: 75px; /* Retain margin for date column */
+    /* padding-top: 1.5rem; */ /* This would override the header + .node-main-content rule, remove */
+}
+
+
+/* Footer area for "Read More" links */
+article.node-teaser footer {
+    padding: 1rem 1.5rem 1.5rem; /* Adjusted top padding for footer */
+    margin-top: auto; /* Push footer to bottom */
+}
+
+article.node-teaser footer ul.links {
+    display: block; 
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding, handled by footer or li */
+    text-align: left; 
+}
+
+article.node-teaser footer ul.links li {
+    display: inline;
+    padding: 0;
+    margin: 0; 
+}
+
+article.node-teaser footer ul.links li.node-readmore a {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    /* color and hover color will be inherited from global 'a' styles */
+}
+
+article.node-teaser footer ul.links li.node-readmore a:hover {
+    text-decoration: underline;
+    background-color: #f8f9fa; /* Subtle background on hover */
+}
+
+.node header .user-picture { padding: 0 0 20px 0; } /* Unchanged */
+
+.feed-icon { display: block; margin: 0px 0 40px; } /* Unchanged */
 
 @media (min-width: 481px) { 
-	.node.node-teaser.node-mt .field-type-image { float: left; margin-right: 20px; }
+	.node.node-teaser.node-mt .field-type-image { float: left; margin-right: 20px; } /* Retained */
 }
 
 /*Node type: Blog & Article - Submitted info*/
@@ -1191,4 +1381,4 @@ ul.contextual-links li a { font-weight: 400; line-height: 1; text-decoration: no
 /*Maintenance-page*/
 .maintenance-page #header-top,.maintenance-page #subfooter { min-height: 60px; }
 
-.maintenance-page #footer-top { min-height: 40px; }
+.maintenance-page #footer-top { min-height: 40px; } /* Unchanged */
