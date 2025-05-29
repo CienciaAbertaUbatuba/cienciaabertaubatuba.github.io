@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'pt-br' }}">
+  {% include head.html %}
+  <body class="{% if page.body_class %}{{ page.body_class }}{% else %}default-body-class SciencePrimaryPage{% endif %}">
+    {% if page.url != "/" %}<div id="toTop"><i class="fa fa-angle-up"></i></div>{% endif %}
+    {% include navbar.html %}
+    <div id="page" class="clearfix">
+      <div id="main-content">
+        <div class="container py-5">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
