@@ -9,34 +9,13 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+          <a class="nav-link active" aria-current="page" href="{{ '/' relative_url }}">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="{{ '/ciência-aberta-ubatuba/' | relative_url }}">O projeto</a>
+          <a class="nav-link"  href="{{ '/ciencia-aberta-ubatuba/' | relative_url }}">O projeto</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"  href="{{ '/blog/' | relative_url }}" title="Weblog do projeto Ciência Aberta Ubatuba">Blog</a>
-        </li>
-      </ul>
-
-      <!-- Search Form -->
-      <form class="d-flex ms-auto" role="search">
-        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-        <button class="btn btn-outline-success" type="submit">
-          <i class="fa fa-search"></i> <span class="d-lg-none ms-2">Pesquisar</span>
-        </button>
-      </form>
-
-      <!-- Language Switcher -->
-      <ul class="navbar-nav"> <!-- No ms-auto needed here -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarLangDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa fa-globe"></i> <span class="d-lg-none ms-2">Idioma</span>
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarLangDropdown">
-            <li><a class="dropdown-item" href="#">Português (BR)</a></li>
-            <li><a class="dropdown-item" href="#">English (EN)</a></li>
-          </ul>
         </li>
       </ul>
     </div>
