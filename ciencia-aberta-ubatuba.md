@@ -1,7 +1,7 @@
 ---
 title: Ciência Aberta Ubatuba
 layout: page
-permalink: /ciencia-aberta-ubatuba/ciencia-aberta-ubatuba/
+permalink: /ciencia-aberta-ubatuba
 ---
 
 Ciência Aberta Ubatuba é uma plataforma criada para promover a articulação entre pesquisa científica, comunidades e organizações sediadas na cidade de Ubatuba. Trata de desenvolver o campo das práticas científicas abertas e colaborativas, particularmente na criação de pontes entre ciência e desenvolvimento local. O projeto será executado em 2015 e 2016 sob coordenação do [IBICT](http://www.ibict.br/ "http://www.ibict.br/") , com recursos da [OCSDnet](http://ocsdnet.org/ "http://ocsdnet.org/") e apoio do CNPq. A plataforma também conta com a participação do [Centro de Tecnologia Acadêmica do IF/UFRGS](http://cta.if.ufrgs.br/ "http://cta.if.ufrgs.br/") , o apoio do núcleo [Ubalab](http://ubalab.org "http://ubalab.org"), do festival [Tropixel](http://tropixel.ubalab.org "http://tropixel.ubalab.org") ,da rádio cultural comunitária [Gaivota FM](http://gaivota.fm.br "http://gaivota.fm.br") e do [Pimentalab/Unifesp](http://blog.pimentalab.net "http://blog.pimentalab.net").
