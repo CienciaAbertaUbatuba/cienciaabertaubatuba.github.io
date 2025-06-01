@@ -14,4 +14,4 @@ Até o momento, Ubatuba é a única da América do Sul a sediar atividades do Gl
 
 ## **Como participar?**
 
-No momento, a plataforma Ciência Aberta Ubatuba está dialogando com organizações parceiras para desenvolver propostas de atividades entre oficinas, debates e sessões de trabalho. Se você tem alguma sugestão de atividade, se identifica alguma demanda ligada a ciência e tecnologia de informação em Ubatuba, ou se tem vontade de participar da programação, entre em contato pelo formulário em [http://cienciaaberta.ubatuba.cc/contact](../../contact.html "../../contact.html")
+No momento, a plataforma Ciência Aberta Ubatuba está dialogando com organizações parceiras para desenvolver propostas de atividades entre oficinas, debates e sessões de trabalho. Se você tem alguma sugestão de atividade, se identifica alguma demanda ligada a ciência e tecnologia de informação em Ubatuba, ou se tem vontade de participar da programação, entre em contato pelo formulário.
