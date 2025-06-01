@@ -1,7 +1,7 @@
 title: Ciência Aberta Ubatuba
 description: "A plataforma Ciência Aberta Ubatuba estimula a articulação entre os diversos atores envolvidos com a produção e a circulação de conhecimento na cidade de Ubatuba."
 baseurl: "" # If site is in a subfolder like /myrepo, set this. Otherwise, leave empty.
-url: "" # Your production URL e.g., https://cienciaabertaubatuba.github.io
+url: "https://cienciaabertaubatuba.github.io" # Your production URL e.g., https://cienciaabertaubatuba.github.io
 
 markdown: kramdown
 kramdown:
@@ -16,3 +16,9 @@ exclude:
   - extract_data.py
   - jekyll_site_output/
   - README.md
+
+collections:
+  blog:
+    output: true
+  video:
+    output: true
