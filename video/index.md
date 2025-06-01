@@ -1,8 +1,9 @@
 ---
 title: Vídeos
 layout: page
-permalink: /videos
+permalink: /video/
 ---
+
 
 Seleção de vídeos do projeto.
 
