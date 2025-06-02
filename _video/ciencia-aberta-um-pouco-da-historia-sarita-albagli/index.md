@@ -3,6 +3,7 @@ title: 'Ciência Aberta: um pouco da história - Sarita Albagli'
 layout: post
 date: '2017-08-18'
 permalink: /video/ciencia-aberta-um-pouco-da-historia-sarita-albagli/
+youtube_id: wsaixj5nQo0
 ---
 
 

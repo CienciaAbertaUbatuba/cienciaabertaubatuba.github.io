@@ -3,6 +3,7 @@ title: 'Território: conceito Guarany - Marcos dos Santos Tupã'
 layout: post
 date: '2017-08-18'
 permalink: /video/territorio-conceito-guarany-marcos-dos-santos-tupa/
+youtube_id: _eoA8N1UQe4
 ---
 
 

@@ -3,6 +3,7 @@ title: Educação Diferenciada - Vagner do Nascimento
 layout: post
 date: '2017-08-18'
 permalink: /video/educacao-diferenciada-vagner-do-nascimento/
+youtube_id: FVc8G8IZCU4
 ---
 
 

@@ -3,6 +3,7 @@ title: Da Ciência Aberta à ciência comum - Henrique Parra
 layout: post
 date: '2017-08-18'
 permalink: /video/da-ciencia-aberta-a-ciencia-comum-henrique-parra/
+youtube_id: JJq-LZaZGWM
 ---
 
 

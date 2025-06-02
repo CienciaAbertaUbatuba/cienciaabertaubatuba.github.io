@@ -3,6 +3,7 @@ title: Ciência Aberta Ubatuba
 layout: post
 date: '2017-08-18'
 permalink: /video/ciencia-aberta-ubatuba/
+youtube_id: xGHUhl1WB9E
 ---
 
 

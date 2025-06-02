@@ -3,6 +3,7 @@ title: Com quantas memórias se faz uma canoa? - Alexander Turra
 layout: post
 date: '2017-08-18'
 permalink: /video/com-quantas-memorias-se-faz-uma-canoa-alexander-turra/
+youtube_id: etmUV-5Z9TU
 ---
 
 

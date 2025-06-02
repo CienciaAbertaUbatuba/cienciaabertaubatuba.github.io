@@ -3,6 +3,7 @@ title: Ciência Aberta para quem? - Henrique Parra
 layout: post
 date: '2017-08-18'
 permalink: /video/ciencia-aberta-para-quem-henrique-parra/
+youtube_id: XPG1dTRI8IY
 ---
 
 

@@ -4,6 +4,7 @@ layout: post
 date: '2017-08-18'
 author: efeefe
 permalink: /video/uma-experiencia-de-abertura-do-conhecimento-cientifico-danilo-santos/
+youtube_id: 3XnNqtWR0Gk
 ---
 
 
