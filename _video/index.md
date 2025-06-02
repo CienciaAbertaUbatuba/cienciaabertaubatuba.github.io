@@ -23,9 +23,10 @@ O projeto Ciência Aberta Ubatuba produziu diversos vídeos entre 2015 e 2017. E
       {% endif %}
       <h3><a href="{{ video_item.url | relative_url }}">{{ video_item.title | escape }}</a></h3>
       {% if video_item.date %}<p class="text-muted small">Publicado em: {{ video_item.date | date: "%d/%m/%Y" }}</p>{% elsif video_item.date_original_string %}<p class="text-muted small">Data: {{ video_item.date_original_string }}</p>{% endif %}
-      <div class="content-excerpt">
+<!--      <div class="content-excerpt">
         {{ video_item.excerpt }}
       </div>
+-->
       <p><a href="{{ video_item.url | relative_url }}">Assistir vídeo...</a></p>
     </article>
   {% endfor %}

@@ -19,6 +19,6 @@ Vídeo produzido pelo <a href="http://varandaestudio.tumblr.com/">Est&uacute;dio
 
 **Veja também**
 
-- [Canais de vídeo](canal-ciencia-aberta) do projeto.
+- [Canais de vídeo](canal-ciencia-aberta) do projeto e uma [seleção de vídeos](video).
 
 
