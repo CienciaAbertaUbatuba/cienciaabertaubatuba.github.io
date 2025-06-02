@@ -2,7 +2,7 @@
 
 .video-thumbnail {
   width: 100%;
-  max-width: 320px; /* Or another suitable max-width */
+  max-width: 480px; /* Or another suitable max-width */
   height: auto;
   margin-bottom: 10px;
   border: 1px solid #ddd; /* Optional: adds a light border */
