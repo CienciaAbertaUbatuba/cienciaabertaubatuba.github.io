@@ -17,6 +17,8 @@ Relato em vídeo sobre o projeto de pesquisa "Plataforma Ciência Aberta Ubatuba
 
 Vídeo produzido pelo <a href="http://varandaestudio.tumblr.com/">Est&uacute;dio Varanda</a>.
 
-Assista a [todos os vídeos](https://www.youtube.com/channel/UC1J2Bd6q6VhFBNGihT2qYvA) no [canal Ciência Aberta Ubatuba](canal-ciencia-aberta).
+**Veja também**
+
+- [Canais de vídeo](canal-ciencia-aberta) do projeto.
 
 
